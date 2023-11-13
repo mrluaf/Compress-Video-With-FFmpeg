@@ -1,0 +1,14 @@
+{
+  "name": "compress-video",
+  "version": "1.0.0",
+  "description": "Compress Video",
+  "main": "main.py",
+  "scripts": {
+    "build": "pip install -e .",
+    "create-env": "python3 -m virtualenv env",
+    "create-env3.7": "python3.7 -m virtualenv env",
+    "export": "pip3 freeze > requirements.txt",
+    "dist": "python3.7 build.py"
+  },
+  "license": "ISC"
+}

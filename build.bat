@@ -1,0 +1,1 @@
+pyinstaller --noconsole --name "Compress Video" --onedir --icon=video_compress_icon.ico main.py
